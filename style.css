@@ -21,7 +21,7 @@ a:hover {
 
 .left-nav {
     float: left;
-    padding: 24px 0px 13px 24px;
+    padding: 24px 0 13px 24px;
 }
 
 .right-nav {
@@ -116,7 +116,7 @@ input[type="submit"]:hover {
     background-color: #f2f2f2;
     border-bottom: 1px solid #e0e0e0;
     border-top: 1px solid #e0e0e0;
-    padding: 13px 0px 13px 24px;
+    padding: 13px 0 13px 24px;
 }
 
 .footer {
