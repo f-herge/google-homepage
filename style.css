@@ -1,0 +1,134 @@
+/****** General Styles *********/
+
+body {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: black;
+    min-width: 980px;
+}
+
+a, p {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/****** Top and Bottom Navigation Styles *********/
+
+.left-nav {
+    float: left;
+    padding: 24px 0px 13px 24px;
+}
+
+.right-nav {
+    float: right;
+    padding: 24px 24px 13px 24px;
+}
+
+.right-nav a {
+    margin-left: 18px;
+}
+
+.left-nav a {
+    margin-right: 18px;
+}
+
+/****** Header *********/
+
+.header .right-nav a {
+    opacity: 1;
+}
+
+#grid {
+    background: url("images/grid.png") center / contain no-repeat;
+    padding: 9px;
+}
+
+.sign-in {
+    color: white;
+    background-color: rgb(66, 133, 244);
+    font-weight: 700;
+    opacity: 1;
+    border-radius: 2px;
+    cursor: default;
+    padding: 7px 12px;
+}
+
+#sign-in-button:hover {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/****** Main Body *********/
+
+.center {
+    display: block;
+    margin: 150px auto 25px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #e6e3e3;
+    background: url("images/magnifier.png") 13px / 22px no-repeat;
+    padding: 13px 40px;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+input[type="submit"] {
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    margin: 0 4px;
+    padding: 8px 15px;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    border: 1px solid #c2bebe;
+    background-color: #faf9f9;
+}
+
+/****** Footer *********/
+
+.country {
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    padding: 13px 0px 13px 24px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 980px;
+    background-color: #f2f2f2;
+    opacity: 0.85;
+}
+
+.footer .left-nav, .footer .right-nav {
+    padding-top: 13px
+}
